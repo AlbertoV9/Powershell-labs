@@ -1,1 +1,11 @@
-
+{
+  "name": "PowerShell Labs",
+  "image": "mcr.microsoft.com/devcontainers/powershell:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.powershell"
+      ]
+    }
+  }
+}
